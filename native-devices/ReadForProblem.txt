@@ -1,0 +1,3 @@
+To use google map apis you have to enable the api and services you are using. GO to below link
+
+"https://console.developers.google.com/apis/dashboard?project=react-native-devices"
