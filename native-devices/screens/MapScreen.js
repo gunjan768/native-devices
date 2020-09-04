@@ -12,11 +12,7 @@ import Colors from '../constants/Colors';
 
 const MapScreen = props => 
 {
-	const initialLocation = props.route.params ? 
-								( props.route.params.initialLocation ? props.route.params.initialLocation : null )
-							:
-								null
-						;
+	const initialLocation = props.route.params ? ( props.route.params.initialLocation ? props.route.params.initialLocation : null ) : null;
 
 	const readonly = props.route.params ? ( props.route.params.readonly ? props.route.params.readonly : null ) : null;
 
